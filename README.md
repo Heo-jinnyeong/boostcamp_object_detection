@@ -23,6 +23,7 @@
 # 문제정의
 <h3> 1. 데이터 불균형  </h3>
 - EDA 결과 Battery에 대한 Annotation 수가 전체 23,144 중 159개로 상당히 적었다.
+
 - 이를 보완하기 위해 StratifiedGroupKfold를 적용 후 학습을 진행하였다.
 
 
