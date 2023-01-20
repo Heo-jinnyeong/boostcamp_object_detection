@@ -24,7 +24,13 @@
 <h3> 1. 데이터 불균형  </h3>
   
 - EDA 결과 Battery에 대한 Annotation 수가 전체 23,144 중 159개로 상당히 적었다.
-- 이를 보완하기 위해 StratifiedGroupKfold를 적용 후 학습을 진행하였다.
+
+<h3> 2. Validation Set 구성  </h3>
+
+- 이미지 한 장에 존재하는 annotation의 개수는 1개에서 71개이다.
+- 즉 이미지 안에서 여러 개의 Annotation이 존재하기 때문에 Stratified Group K-fold를 적용하여 Validation Set을 구성하였다.
+
+
 
 
 
