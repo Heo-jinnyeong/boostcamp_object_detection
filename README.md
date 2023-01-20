@@ -23,7 +23,8 @@
 # 문제정의
 <h3> 1. 데이터 불균형  </h3>
   
-- EDA 결과 Battery에 대한 Annotation 수가 전체 23,144 중 159개로 상당히 적었다.
+- EDA 결과 Battery에 대한 Annotation 수가 전체 23,144개 중 159개로 상당히 적었다.
+- 하지만 Confusion Matrix로 확인 결과, Battery에 대한 예측은 올바르게 이루지고 있어 추가적인 작업은 진행하지 않았다.
 
 <h3> 2. Validation Set 구성  </h3>
 
@@ -31,7 +32,8 @@
 - 즉 이미지 안에서 여러 개의 Annotation이 존재하기 때문에 Stratified Group K-fold를 적용하여 Validation Set을 구성하였다.
 
 
-
+# Advanced Techniques
+<h3> 1. WBF (Weighted Boxes Fusion)   </h3>  
 
 
 
