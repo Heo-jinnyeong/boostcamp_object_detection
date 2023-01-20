@@ -31,10 +31,18 @@
 - 이미지 한 장에 존재하는 annotation의 개수는 1개에서 71개이다.
 - 즉 이미지 안에서 여러 개의 Annotation이 존재하기 때문에 Stratified Group K-fold를 적용하여 Validation Set을 구성하였다.
 
+<h3> 3. mAP의 실효성에 대한 의문 </h3>
+
+- mAP를 높이는 방법은 최대한 많은 Bounding Box를 생성하면 된다.
+- 하지만 실제 상황에서 Bounding Box가 많아지면 과도한 정보로 실효성이 떨어질 수 있다.
+- 그래서 NMS와 WBF와 같은 방법으로 Bounding Box를 감소시키면 실효성도 확보할 수 있을 것으로 판단했다.
+
 
 # Advanced Techniques
 <h3> 1. WBF (Weighted Boxes Fusion)   </h3>  
 
+- 과도한 Bounding Box의 생성이 결과물에 부정적이 영향을 줄 수 있기 때문에 보완이 필요했다.
+- 기존에 사용하던 NMS는 Bounding Box가 제거되는 단점이 있지만, WBF는 Bounding Box를 융합하기 때문에 정보 손실을 최소화할 수 있었다.
 
 
 
