@@ -1,3 +1,5 @@
+## mmdetection/configs/cv03 에서 협업 진행
+
 ![header](https://capsule-render.vercel.app/api?type=rect&color=gradient&text=재활용%20품목%20분류를%20위한%20Object%20Detection&fontSize=30)
 
 # Members
