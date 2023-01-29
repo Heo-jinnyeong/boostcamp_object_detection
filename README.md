@@ -1,5 +1,5 @@
-## ** mmdetection/configs/cv03 에서 협업 진행 **
-## [review-https://drive.google.com/file/d/1l2TItIf-H_luPTGNsInQfq7LUT8jE4G4/view?usp=share_link]
+### mmdetection/configs/cv03 에서 협업 진행
+### review [https://drive.google.com/file/d/1l2TItIf-H_luPTGNsInQfq7LUT8jE4G4/view?usp=share_link]
 
 &nbsp;
 
