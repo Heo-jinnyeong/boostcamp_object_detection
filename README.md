@@ -47,4 +47,4 @@
 
 
 # Reference
-<a name="footnote_1">[1]</a> 출처 : Aistage
+<a name="footnote_1">[1]</a> 출처 : Aistage 
